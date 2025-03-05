@@ -1,0 +1,156 @@
+# **Examen de Programación en Java**
+
+### **Calificación Final: (sobre 20 puntos)**
+
+---
+
+## **Instrucciones:**
+- Lee cuidadosamente cada uno de los ejercicios.
+- Responde los ejercicios con código Java y explica tu razonamiento si es necesario.
+- No copies ni pegues código de fuentes externas. Debes escribirlo por ti mismo.
+- Al finalizar, guarda el archivo con el nombre `Examen_Programacion.java` y envíalo.
+
+---
+
+## **Ejercicio 1: Invertir un Número (3 puntos)**
+
+### Descripción del Ejercicio:
+Escribe un programa en Java que haga lo siguiente:
+
+1. **Pedir un número entero positivo**: El programa debe solicitar al usuario que ingrese un número entero positivo.
+2. **Invertir el número**: Utilizando un bucle `while`, el programa debe invertir el número proporcionado. Por ejemplo, si el número ingresado es 1234, el programa debe imprimir 4321.
+
+**Puntos: 3**
+
+---
+
+## **Ejercicio 2: Comprobación de Número Perfecto (4 puntos)**
+
+### Descripción del Ejercicio:
+Escribe un programa en Java que haga lo siguiente:
+
+1. **Pedir un número entero positivo**: El programa debe solicitar al usuario que ingrese un número entero positivo.
+2. **Comprobar si el número es perfecto**: Un número perfecto es aquel que es igual a la suma de sus divisores, excluyendo el propio número. El programa debe determinar si el número ingresado es perfecto. Por ejemplo, el número 6 es perfecto porque sus divisores son 1, 2, y 3, y la suma es 6.
+
+**Puntos: 4**
+
+---
+
+## **Ejercicio 3: Generador de Números Primos (4 puntos)**
+
+### Descripción del Ejercicio:
+Escribe un programa en Java que haga lo siguiente:
+
+1. **Pedir un número entero positivo**: El programa debe solicitar al usuario que ingrese un número entero positivo.
+2. **Generar y mostrar los primeros N números primos**: El programa debe generar los primeros N números primos, donde N es el número proporcionado por el usuario. Recuerda que un número primo es aquel que solo tiene dos divisores: 1 y él mismo.
+
+**Puntos: 4**
+
+---
+
+## **Ejercicio 4: Cálculo del MCD (Máximo Común Divisor) (4 puntos)**
+
+### Descripción del Ejercicio:
+Escribe un programa en Java que haga lo siguiente:
+
+1. **Pedir dos números enteros positivos**: El programa debe solicitar dos números enteros positivos al usuario.
+2. **Calcular el MCD**: Utilizando el algoritmo de Euclides, el programa debe calcular el Máximo Común Divisor (MCD) de los dos números proporcionados.
+
+**Puntos: 4**
+
+---
+
+## **Ejercicio 5: Suma de una Serie (4 puntos)**
+
+### Descripción del Ejercicio:
+Escribe un programa en Java que haga lo siguiente:
+
+1. **Pedir un número entero positivo**: El programa debe solicitar al usuario que ingrese un número entero positivo N.
+2. **Calcular la suma de la serie 1 + 1/2 + 1/3 + ... + 1/N**: El programa debe calcular la suma de la serie hasta N y mostrar el resultado. Por ejemplo, si N es 3, la suma será 1 + 1/2 + 1/3 = 1.833.
+
+**Puntos: 4**
+
+---
+
+## **Ejercicio 6: Contar los Dígitos Pares (4 puntos)**
+
+### Descripción del Ejercicio:
+Escribe un programa en Java que haga lo siguiente:
+
+1. **Pedir un número entero positivo**: El programa debe solicitar al usuario que ingrese un número entero positivo.
+2. **Contar los dígitos pares**: El programa debe contar cuántos dígitos pares hay en el número ingresado. Por ejemplo, si el número es 123456, el programa debe contar los dígitos 2, 4, y 6.
+
+**Puntos: 4**
+
+---
+
+## **Ejercicio 7: Sumar los Dígitos hasta un Límite (4 puntos)**
+
+### Descripción del Ejercicio:
+Escribe un programa en Java que haga lo siguiente:
+
+1. **Pedir un número entero positivo y un límite**: El programa debe solicitar que el usuario ingrese un número entero positivo y un límite de suma.
+2. **Suma de dígitos**: El programa debe sumar los dígitos del número ingresado hasta que la suma de los dígitos sea mayor o igual al límite proporcionado. Luego, el programa debe imprimir la suma total.
+
+**Puntos: 4**
+
+---
+
+## **Ejercicio 8: Cálculo del Exponente (3 puntos)**
+
+### Descripción del Ejercicio:
+Escribe un programa en Java que haga lo siguiente:
+
+1. **Pedir una base y un exponente**: El programa debe solicitar al usuario una base y un exponente.
+2. **Calcular la potencia**: El programa debe calcular la potencia de la base elevada al exponente utilizando un bucle `while` (sin utilizar funciones matemáticas predefinidas).
+
+**Puntos: 3**
+
+---
+
+## **Ejercicio 9: Adivina el Número (4 puntos)**
+
+### Descripción del Ejercicio:
+Escribe un programa en Java que haga lo siguiente:
+
+1. **Generar un número aleatorio**: El programa debe elegir un número al azar entre 1 y 100.
+2. **Adivinar el número**: El programa debe pedir al usuario que adivine el número. Después de cada intento, el programa debe indicar si el número es mayor o menor que el número generado. El juego termina cuando el usuario adivina correctamente.
+
+**Puntos: 4**
+
+---
+
+## **Rúbrica de Evaluación:**
+
+| Criterio                                           | Puntos |
+|----------------------------------------------------|--------|
+| **Claridad y precisión en la solución**            | 4      |
+| El código está bien estructurado y sigue las instrucciones de los ejercicios. El código es fácil de leer y entender. |        |
+| **Uso de bucles y estructuras adecuadas**          | 4      |
+| El estudiante ha utilizado correctamente los bucles y estructuras necesarias para resolver el problema. |        |
+| **Resultado correcto**                             | 4      |
+| El programa proporciona la salida correcta para una variedad de entradas. |        |
+| **Estilo y buenas prácticas de programación**      | 4      |
+| El código está bien comentado (si es necesario), organizado y sigue buenas prácticas de programación. |        |
+
+---
+
+## **Puntaje Total: (sobre 20 puntos)**
+
+| Criterio                                          | Puntos |
+|---------------------------------------------------|--------|
+| **Ejercicio 1 (Invertir un Número)**              | 3      |
+| **Ejercicio 2 (Número Perfecto)**                 | 4      |
+| **Ejercicio 3 (Generador de Números Primos)**     | 4      |
+| **Ejercicio 4 (Cálculo del MCD)**                 | 4      |
+| **Ejercicio 5 (Suma de Serie)**                   | 4      |
+| **Ejercicio 6 (Contar los Dígitos Pares)**        | 4      |
+| **Ejercicio 7 (Suma de Dígitos hasta un Límite)** | 4      |
+| **Ejercicio 8 (Cálculo del Exponente)**           | 3      |
+| **Ejercicio 9 (Adivina el Número)**               | 4      |
+| **Total**                                         | 36     |
+
+---
+
+**¡Buena suerte!**
+
