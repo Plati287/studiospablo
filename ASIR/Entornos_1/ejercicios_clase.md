@@ -70,3 +70,11 @@ Escribe un programa en Java que haga lo siguiente:
    - Si el número ingresado es, por ejemplo, **15**, el programa debe imprimir los números pares hasta 15.
 
 
+Ejercicio: Mostrar los Números Pares Hasta un Número
+Descripción del Ejercicio:
+Escribe un programa en Java que haga lo siguiente:
+
+Pedir un número entero positivo: El programa debe solicitar que el usuario ingrese un número entero positivo.
+Recorrer los números: El programa debe recorrer los números desde 1 hasta el número ingresado por el usuario.
+Mostrar los números pares: El programa debe imprimir en la consola todos los números pares dentro de ese rango.
+Si el número ingresado es, por ejemplo, 15, el programa debe imprimir los números pares hasta 15.
