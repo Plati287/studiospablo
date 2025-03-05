@@ -54,7 +54,6 @@ Escribe un programa que imprima los primeros 10 números naturales (del 1 al 10)
 
 
 ### Solución:
- Ejercicio 1: Adivina el Número (5 puntos)
 
 ```java
  Ejercicio 1: Adivina el Número (5 puntos)
