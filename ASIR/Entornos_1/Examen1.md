@@ -17,7 +17,7 @@ exam_markdown_content_4_exercises = """
 - Ejercicio 1: Adivina el Número (5 puntos)
 - Ejercicio 2: Contar números pares e impares (4 puntos)
 - Ejercicio 3: Sumar los Números Impares del 1 al 100 (0.5 puntos)
-- Ejercicio 4: Imprimir los Primeros 10 Números Naturales (5 puntos)
+- Ejercicio 4: Imprimir los Primeros 10 Números Naturales (0.5 puntos)
 
 
 ---
