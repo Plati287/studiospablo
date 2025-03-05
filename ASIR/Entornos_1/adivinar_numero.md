@@ -1,15 +1,11 @@
-# Ejercicio: Adivina el Número
+Ejercicio: Adivina el Número
+Escribe un programa en Java que:
 
-Escribe un programa en **Java** que haga lo siguiente:
+Genere un número secreto aleatorio entre 1 y 100.
+Pida al usuario que adivine el número.
+Mientras el usuario no adivine, el programa debe seguir pidiendo números y dar pistas (mayor o menor).
+Cuando el usuario adivine, mostrar un mensaje de éxito y terminar el programa.
 
-1. Genere un número secreto aleatorio entre 1 y 100.
-2. Pida al usuario que adivine el número.
-3. Mientras el usuario no adivine, el programa debe seguir pidiendo números y dar pistas (mayor o menor).
-4. Cuando el usuario adivine, mostrar un mensaje de éxito y terminar el programa.
-
-## Ejemplo de solución en Java
-
-```java
 import java.util.Scanner;
 
 public class AdivinaElNumero {
@@ -17,8 +13,8 @@ public class AdivinaElNumero {
         // Crear un objeto Scanner para leer la entrada del usuario
         Scanner scanner = new Scanner(System.in);
 
-        // Generar un número aleatorio entre 1 y 100
-        int numeroSecreto = (int) (Math.random() * 100) + 1;
+        // Definir el número secreto que el usuario debe adivinar (puedes cambiarlo manualmente aquí)
+        int numeroSecreto = 42;  // Cambia este número por el que quieras
 
         // Variable para almacenar la suposición del usuario
         int intento = 0;
