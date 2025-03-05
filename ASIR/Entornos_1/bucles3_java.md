@@ -53,3 +53,31 @@ Cantidad de números impares: 5
 
 Este ejercicio es ideal para reforzar el concepto de **bucles y condicionales** en Java 🚀.
 
+import java.util.Scanner;
+
+public class ContarParesImpares {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Pedir al usuario un número
+        System.out.print("Ingrese un número entero positivo: ");
+        int limite = scanner.nextInt();
+
+        int pares = 0, impares = 0; // Contadores
+
+        // Usar un bucle for para recorrer los números desde 1 hasta el límite
+        for (int i = 1; i <= limite; i++) {
+            if (i % 2 == 0) {
+                pares++; // Si es par, incrementar contador de pares
+            } else {
+                impares++; // Si es impar, incrementar contador de impares
+            }
+        }
+
+        // Mostrar resultados
+        System.out.println("Cantidad de números pares: " + pares);
+        System.out.println("Cantidad de números impares: " + impares);
+
+        scanner.close();
+    }
+}
