@@ -44,3 +44,13 @@ public class java {
     }
 }
 
+# Ejercicio: Mostrar los Números Pares Hasta un Número
+
+## Descripción del Ejercicio:
+Escribe un programa en Java que haga lo siguiente:
+
+1. Pida al usuario que ingrese un número entero positivo.
+2. El programa debe recorrer los números desde 1 hasta el número ingresado.
+3. Debe mostrar en la consola todos los números pares dentro de ese rango.
+4. Si el número ingresado es, por ejemplo, 15, el programa debe imprimir los números pares hasta 15.
+
