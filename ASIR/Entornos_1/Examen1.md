@@ -14,16 +14,17 @@ exam_markdown_content_4_exercises = """
 
 ## Puntuación:
 
-- Ejercicio 1: Adivina el Número (10 puntos)
-- Ejercicio 2: Contar números pares e impares (10 puntos)
-- Ejercicio 3: Ejercicios con `while` (10 puntos)
-- Ejercicio 4: Ejercicios con `for` (10 puntos)
+- Ejercicio 1: Adivina el Número (5 puntos)
+- Ejercicio 2: Contar números pares e impares (4 puntos)
+- Ejercicio 3: Sumar los Números Impares del 1 al 100 (0.5 puntos)
+- Ejercicio 4: Imprimir los Primeros 10 Números Naturales (5 puntos)
+
 
 ---
 
 ## Ejercicios
 
-### Ejercicio 1: Adivina el Número (10 puntos)
+### Ejercicio 1: Adivina el Número (6 puntos)
 
 Escribe un programa en Java que haga lo siguiente:
 1. Usa un número secreto entre 1 y 100 (por ejemplo, puedes usar el número 50).
@@ -31,7 +32,7 @@ Escribe un programa en Java que haga lo siguiente:
 3. Mientras el usuario no adivine, el programa debe seguir pidiendo números y dar pistas (mayor o menor).
 4. Cuando el usuario adivine, mostrar un mensaje de éxito y terminar el programa.
 
-### Ejercicio 2: Contar Números Pares e Impares (10 puntos)
+### Ejercicio 2: Contar Números Pares e Impares (4 puntos)
 
 Escribe un programa en Java que realice lo siguiente:
 1. Solicite al usuario que ingrese un número entero positivo, que servirá como límite superior del rango.
