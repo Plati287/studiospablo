@@ -7,7 +7,7 @@ exam_markdown_content_4_exercises = """
 1. Responde los ejercicios de acuerdo a las indicaciones.
 2. El examen se compone de ejercicios prácticos de programación en Java.
 3. Cada ejercicio tiene una puntuación asignada.
-4. El examen tiene una puntuación total de 40 puntos.
+4. El examen tiene una puntuación total de 10 puntos.
 5. Recuerda que debes realizar todos los ejercicios de manera correcta.
 
 ---
