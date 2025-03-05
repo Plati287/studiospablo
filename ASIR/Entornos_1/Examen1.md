@@ -52,7 +52,6 @@ Escribe un programa que imprima los primeros 10 números naturales (del 1 al 10)
 
 # Soluciones Examen de Java: Bucles `for` y `while`
 
-## Ejercicio 1: Adivina el Número (5 puntos)
 
 ### Solución:
  Ejercicio 1: Adivina el Número (5 puntos)
