@@ -10,27 +10,37 @@ Escribe un programa en Java que haga lo siguiente:
 5. El programa debe seguir pidiendo números hasta que el usuario ingrese el número 10.
 6. Cuando el número 10 sea ingresado, el programa debe imprimir "fin" y detenerse.
 
+# Adivina el Número: Juego en Java
+
+```java
 import java.util.Scanner;
+
 public class java {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int numero_random = 34;
+        int numero_random = 34; // Número secreto
         int usuario = 0;
-        System.out.println("Bienvenido al juego de adivina el numero, debes de decir un numero entre el 1 al 100");
-        while(usuario!=numero_random){
-            System.out.println("introduce un numero");
-            int intento = scanner.nextInt();
-            if(intento > numero_random){
-                System.out.println("El numero es menor");
-            } else if (intento < numero_random) {
-                System.out.println("El numero es mayor");
 
+        System.out.println("Bienvenido al juego de adivina el número, debes de decir un número entre el 1 al 100");
+
+        // Bucle para seguir pidiendo números hasta adivinar el correcto
+        while(usuario != numero_random){
+            System.out.println("Introduce un número");
+            int intento = scanner.nextInt();
+
+            if(intento > numero_random){
+                System.out.println("El número es menor");
+            } else if (intento < numero_random) {
+                System.out.println("El número es mayor");
             }
             else{
-                System.out.println("Adivinaste el numero");
-                break;
+                System.out.println("¡Adivinaste el número!");
+                break; // Sale del bucle si el número es adivinado
             }
-        } scanner.close();
+        }
 
+        // Cierra el scanner al final del juego
+        scanner.close();
     }
 }
+
