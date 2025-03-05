@@ -14,7 +14,7 @@ Escribe un programa en Java que haga lo siguiente:
 Escribe un programa en Java que haga lo siguiente:
 
 1. **Pedir un número entero positivo**: El programa debe solicitar que el usuario ingrese un número entero positivo.
-2. **Mostrar los números pares**: El programa debe imprimir en consola todos los números pares desde el 1 hasta el número ingresado por el usuario.
+2. **Mostrar los números pares**: El programa debe imprimir en consola todos los números pares desde el 1 hasta el número ingresado por el usuario..
 
 ---
 
