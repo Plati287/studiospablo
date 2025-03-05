@@ -27,7 +27,6 @@ Este es un juego en Java donde el programa selecciona un número aleatorio, y el
    - Si el intento es **menor** que el número secreto, el programa mostrará el mensaje: "El número es mayor".
 4. **Cuando el número sea adivinado**: El programa mostrará el mensaje: "¡Adivinaste el número!" y terminará.
 
-```java
 import java.util.Scanner;
 
 public class AdivinaElNumero {
@@ -57,7 +56,7 @@ public class AdivinaElNumero {
         scanner.close();
     }
 }
-```java
+
 
 # Ejercicio: Mostrar los Números Pares Hasta un Número
 
