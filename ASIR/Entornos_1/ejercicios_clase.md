@@ -69,7 +69,7 @@ Escribe un programa en Java que haga lo siguiente:
    - Si el número ingresado es, por ejemplo, **15**, el programa debe imprimir los números pares hasta 15.
 
 
-Ejercicio: Mostrar los Números Pares Hasta un Número
+Ejercicio 2: Mostrar los Números Pares Hasta un Número
 Descripción del Ejercicio:
 Escribe un programa en Java que haga lo siguiente:
 
