@@ -50,3 +50,71 @@ Escribe un programa que imprima los primeros 10 números naturales (del 1 al 10)
 """
 
 
+# Soluciones Examen de Java: Bucles `for` y `while`
+
+## Ejercicio 1: Adivina el Número (5 puntos)
+
+### Solución:
+
+```java
+import java.util.Scanner;
+public class AdivinaNumero {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int numeroSecreto = 50; // Número secreto entre 1 y 100
+        int intento = 0;
+
+        System.out.println("Adivina el número entre 1 y 100:");
+
+        while (intento != numeroSecreto) {
+            intento = scanner.nextInt();
+
+            if (intento < numeroSecreto) {
+                System.out.println("El número es mayor. Intenta de nuevo.");
+            } else if (intento > numeroSecreto) {
+                System.out.println("El número es menor. Intenta de nuevo.");
+            } else {
+                System.out.println("¡Correcto! Has adivinado el número.");
+            }
+        }
+    }
+}
+Ejercicio 2: Contar Números Pares e Impares (4 puntos)
+import java.util.Scanner;
+
+public class ContarParesImpares {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int pares = 0;
+        int impares = 0;
+
+        System.out.println("Dime un número:");
+        int numero = scanner.nextInt();
+
+        for (int i = 1; i <= numero; i++) {
+            if (i % 2 == 0) {
+                pares++;
+            } else {
+                impares++;
+            }
+        }
+
+        System.out.println("Hay " + pares + " números pares.");
+        System.out.println("Hay " + impares + " números impares.");
+    }
+}
+Ejercicio 3: Sumar los Números Impares del 1 al 100 (0.5 puntos)
+
+public class SumarImpares {
+    public static void main(String[] args) {
+        int suma = 0;
+
+        for (int i = 1; i <= 100; i++) {
+            if (i % 2 != 0) {
+                suma += i;
+            }
+        }
+
+        System.out.println("La suma de los números impares entre 1 y 100 es: " + suma);
+    }
+}
