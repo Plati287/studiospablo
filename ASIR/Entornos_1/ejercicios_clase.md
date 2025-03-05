@@ -57,6 +57,8 @@ public class AdivinaElNumero {
         scanner.close();
     }
 }
+```java
+
 # Ejercicio: Mostrar los Números Pares Hasta un Número
 
 ### Descripción del Ejercicio:
