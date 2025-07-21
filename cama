@@ -1,0 +1,51 @@
+🛏 PASOS PARA HACER UNA CAMA EN BLENDER
+1. Base de la cama (colchón)
+Abre Blender y borra el cubo inicial (X > Delete).
+
+Añade un nuevo cubo (Shift + A > Mesh > Cube).
+
+Escálalo para que parezca un colchón:
+
+Escala en eje Z (S > Z > 0.2)
+
+Escala en eje Y (S > Y > 1.5)
+
+Escala en eje X (S > X > 1)
+
+2. Suaviza el colchón (opcional)
+Con el cubo seleccionado, ve al modo edición (Tab).
+
+Selecciona todo (A) y aplica Bevel (Ctrl + B) para redondear un poco las esquinas.
+
+Sal del modo edición (Tab).
+
+3. Añadir la estructura de madera (base o marco)
+Duplica el colchón (Shift + D) y escálalo un poco más grande (S > 1.05)
+
+Muévelo ligeramente hacia abajo (G > Z > -0.1)
+
+Esto será la base de madera que rodea el colchón.
+
+4. Cabecera de la cama
+Añade otro cubo (Shift + A > Mesh > Cube)
+
+Escálalo para que sea alto y plano, como una tabla vertical:
+
+S > X > 2
+
+S > Z > 2
+
+S > Y > 0.2
+
+Mueve la cabecera a la parte trasera del colchón (G > Y > mueve hacia atrás)
+
+5. Pies de la cama (opcional)
+Añade 4 cilindros o cubos pequeños en las esquinas para hacer los pies.
+
+Colócalos debajo de la base.
+
+6. Añadir almohadas (opcional)
+Añade otro cubo o esfera, escálalo en forma rectangular pero más pequeña y delgada.
+
+Colócalo encima del colchón.
+
